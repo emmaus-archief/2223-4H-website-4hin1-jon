@@ -94,16 +94,16 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #868ba2;
+    background-color: #a3a5ae;
 }
 
 nav li a.active {
-    background-color: #deedf2;
+    background-color: #27bbec;
 }
