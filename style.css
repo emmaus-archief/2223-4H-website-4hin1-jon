@@ -45,17 +45,9 @@ p {
 
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
-  float:left;
-  width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
-}
-.kolomRechts {
-  float:left;
-  width: 450px;
-}
-.kolomStop {
-  clear:both;                   /* stop met floaten */
+.inleiding {
+  color: grey
+
 }
 
 /* Opmaak voor alle pagina's */
@@ -67,11 +59,6 @@ h1, h2, h3 {
 .smalltext {
     text-align: center;
     font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
 }
 
 a:hover {
