@@ -35,7 +35,7 @@ main {
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: left;             /* tekst centreren */
 } 
 
 p {
@@ -46,32 +46,48 @@ p {
 /* Indeling voor hoofd pagina */
 
 .inleiding {
-  color: grey
-
+  color: #b3b3b3
 }
-
+.inleiding {
+  border: 2px #303030;
+  padding-top:20px;
+  
+.overMij {
+  border: 2px blue
+}  
+  
+  (kolom inleiding)
+}
+.kolomLinks {
+  width:320px;
+  float:left;
+}
+.kolomRechts {
+  width:300px;
+  float:right;
+}
+.kolomLinks2 {
+  Width:200px;
+  float:left;
+}
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
+h1, h2, {
       color: #525252;
 }
-
 .smalltext {
     text-align: center;
     font-size: 0.7em;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
-
-/* Navigatiebalk voor alle pagina's */
+/* Navigatiebalk voor alle pagina's */ 
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #a8a4a4;
     overflow: hidden;
 }
 
@@ -86,11 +102,12 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 nav li a:hover {
     background-color: #a3a5ae;
 }
-
 nav li a.active {
-    background-color: #27bbec;
+    background-color: #a71111;
+
+  
+}
 }
