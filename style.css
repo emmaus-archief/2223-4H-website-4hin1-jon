@@ -41,20 +41,40 @@ header, footer {                  /* geldt voor header en footer */
 main {                       
   text-align: justify;            /* tekst uitvullen */}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1 {                      /* geldt voor h1 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
 } 
-
+h2 {                      /* geldt voor h2 */
+  margin: 10px 0px;
+  text-align: center;    
+}
+h3 {                      /* geldt voor h3 */
+  margin: 10px 0px;
+  text-align: center; 
+}
+h4 {                      /* geldt voor h4 */
+  margin: 10px 0px;
+  text-align: center; 
+}
+h5 {                      /* geldt voor h5 */
+  margin: 10px 0px;
+  text-align: center; 
+}
 p {
   margin: 10px 0px;
   text-align: center;            /* tekst links en rechts uitvullen */
 }
 
 /* Indeling voor hoofd pagina */
+.passie {
+  color:#ffffff;
+  font-size: 18px;
+}
 
 .inleiding {
-  color: #b3b3b3
+  color: #ffffff;
+  font-size: 18px;
   
 }
 .inleiding {
