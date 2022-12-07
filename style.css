@@ -77,17 +77,64 @@ p {
   border:solid 2px red;
 }
 .blokIconen {
-  width:50%;
+  width:40%;
   float:left;
   border:solid 2px grey;
 }
-.icon {
-  border:solid 2px purple;
-  width:50%;
-  float:left;
-  padding:10px;
-  min-width:200px;
+.icon1 {
+  width: 250px;
+  height: 300px;
+  display: inline-block ;
+  border-radius: 10px ;
+  padding:10px 25px ;
+  box-sizing:border-box ;
+  cursor: pointer;
+  margin:10px 15px ;
+  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
+  background-position: center;
+  background-size: cover; 
 }
+.icon2 {
+  width: 250px;
+  height: 300px;
+  display: inline-block ;
+  border-radius: 10px ;
+  padding:10px 25px ;
+  box-sizing:border-box ;
+  cursor: pointer;
+  margin:10px 15px ;
+  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
+  background-position: center;
+  background-size: cover;
+}
+  .icon3 {
+  width: 250px;
+  height: 300px;
+  display: inline-block ;
+  border-radius: 10px ;
+  padding:10px 25px ;
+  box-sizing:border-box ;
+  cursor: pointer;
+  margin:10px 15px ;
+  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
+  background-position: center;
+  background-size: cover;
+
+  }
+.icon4 {
+  width: 250px;
+  height: 300px;
+  display: inline-block ;
+  border-radius: 10px ;
+  padding:10px 25px ;
+  box-sizing:border-box ;
+  cursor: pointer;
+  margin:10px 15px ;
+  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .icon img { /*img in .icon */
   width:100%;
   }
