@@ -42,7 +42,7 @@ main {
   text-align: justify;            /* tekst uitvullen */}
 
 h1 {                      /* geldt voor h1 */
-  margin: 10px 0px;
+  margin: 30px 30px;
   text-align: center;             /* tekst centreren */
 } 
 h2 {                      /* geldt voor h2 */
@@ -74,7 +74,15 @@ p {
 .blokTekst {
   width:50%;
   float:left;
+  text-align: center;
   border:solid 2px red;
+  flex-basis: 50%;
+  margin-top: 10%;
+}
+.TekstTitel {
+  color: white;
+  font-family: sans-serif;
+}
 }
 .blokIconen {
   width:40%;
@@ -138,9 +146,12 @@ p {
 .icon img { /*img in .icon */
   width:100%;
   }
-.tesktGroot {
-  font-size:10em;
-  color:red;
+.Titel {
+  font-family: monospace;
+  font-size: 70px;
+  color: white;
+  height: 70px;
+  text-align: center;
 }
 .tesktKlein {
   font-size:1em;
@@ -156,9 +167,8 @@ p {
   color: #ffffff;
   font-size: 18px;
   font-
-  
-  
 }
+
 .inleiding {
   border: 2px #303030;
   padding-top:20px;
@@ -194,16 +204,21 @@ a:hover {
     text-decoration: underline;
 }
 /* Navigatiebalk voor alle pagina's */ 
+.Navigation {
+  float: left;
+}
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
     background-color: #a8a4a4;
     overflow: hidden;
+   
 }
 
 nav ul li {
     float: left;
+  
 }
 
 nav li a {
@@ -220,6 +235,3 @@ nav li a:hover {
 nav li a.active {
     background-color: #a71111;
 }
- .smalltext {
-   color: white;
- }
