@@ -28,7 +28,10 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
-
+.belangrijk {
+  font-size: 70px;
+  color: beige
+}
 .page {
   width: 80%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
@@ -45,6 +48,9 @@ h1 {                      /* geldt voor h1 */
   margin: 30px 30px;
   text-align: center;             /* tekst centreren */
 } 
+.belangrijk  {
+  
+}
 h2 {                      /* geldt voor h2 */
   margin: 10px 0px;
   text-align: center;    
@@ -73,6 +79,7 @@ p {
 }
 .blokTekst {
   width:50%;
+  height: 300px;
   float:left;
   text-align: center;
   border:solid 2px red;
@@ -89,7 +96,7 @@ p {
   float:left;
   border:solid 2px grey;
 }
-.icon1 {
+.icon {
   width: 250px;
   height: 300px;
   display: inline-block ;
@@ -98,57 +105,28 @@ p {
   box-sizing:border-box ;
   cursor: pointer;
   margin:10px 15px ;
-  background-image: url("https://www.stuttcars.com/wp-content/uploads/2021/12/Porsche-911-Turbo-S-Coupe-992-17-scaled.jpg");
   background-position: center;
   background-size: cover; 
 }
-.icon2 {
-  width: 250px;
-  height: 300px;
-  display: inline-block ;
-  border-radius: 10px ;
-  padding:10px 25px ;
-  box-sizing:border-box ;
-  cursor: pointer;
-  margin:10px 15px ;
-  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
-  background-position: center;
-  background-size: cover;
+.icon1 {
+background-image: url("https://www.stuttcars.com/wp-content/uploads/2021/12/Porsche-911-Turbo-S-Coupe-992-17-scaled.jpg");
 }
-  .icon3 {
-  width: 250px;
-  height: 300px;
-  display: inline-block ;
-  border-radius: 10px ;
-  padding:10px 25px ;
-  box-sizing:border-box ;
-  cursor: pointer;
-  margin:10px 15px ;
-  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
-  background-position: center;
-  background-size: cover;
-
+.icon2 {
+background-image: url("https://wallpapercave.com/dwp2x/wp2144799.jpg");
+}
+.icon3 {
+background-image: url("https://www.hdcarwallpapers.com/download/porsche_cayenne_turbo_gt_2022_4k-3840x2160.jpg");
   }
 .icon4 {
-  width: 250px;
-  height: 300px;
-  display: inline-block ;
-  border-radius: 10px ;
-  padding:10px 25px ;
-  box-sizing:border-box ;
-  cursor: pointer;
-  margin:10px 15px ;
-  background-image: url("https://wallpapercrafter.com/sizes/1366x768/125104-Porsche-Porsche-911-Carrera-car-vehicle-Forza-Horizon-4-video-games-Porsche-992-Porsche-911-closeup.jpg");
-  background-position: center;
-  background-size: cover;
+ background-image: url("https://www.topgear.com/sites/default/files/cars-car/carousel/2020/09/pcgb20_1007_fine_0.jpg");
 }
 
 .icon img { /*img in .icon */
   width:100%;
   }
 .Titel {
-  font-family: monospace;
-  font-size: 70px;
+  font-family: sans-serif;
+  font-size: 80px;
   color: white;
   height: 70px;
   text-align: center;
@@ -180,16 +158,13 @@ p {
   (kolom inleiding)
 }
 .kolomLinks {
-  width:320px;
+  width:280px;
   float:left;
 }
 .kolomRechts {
   width:300px;
   float:right;
 }
-
-}
-
 /* Opmaak voor alle pagina's */
 
 h1, h2, {
@@ -201,7 +176,7 @@ h1, h2, {
     font-size: 0.7em;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: ;
 }
 /* Navigatiebalk voor alle pagina's */ 
 .Navigation {
@@ -210,9 +185,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 5px;
     background-color: #a8a4a4;
     overflow: hidden;
+  border-radius: 8px;
    
 }
 
@@ -229,9 +205,18 @@ nav li a {
     text-decoration: none;
 }
 nav li a:hover {
-    background-color: #a3a5ae;
+    background-color: beige;
+  border-radius: 8px;
     overflow: hidden;
+    padding: 10px;
+  witdh: 100px;
+  height: 40px
 }
 nav li a.active {
-    background-color: #a71111;
+    background-color: beige;
+  border-radius: 8px;
+  padding: 10px;
+  witdh: 100%;
+  height: 40px;
+  
 }
