@@ -48,25 +48,6 @@ h1 {                      /* geldt voor h1 */
   margin: 30px 30px;
   text-align: center;             /* tekst centreren */
 } 
-.belangrijk  {
-  
-}
-h2 {                      /* geldt voor h2 */
-  margin: 10px 0px;
-  text-align: center;    
-}
-h3 {                      /* geldt voor h3 */
-  margin: 10px 0px;
-  text-align: center; 
-}
-h4 {                      /* geldt voor h4 */
-  margin: 10px 0px;
-  text-align: center; 
-}
-h5 {                      /* geldt voor h5 */
-  margin: 10px 0px;
-  text-align: center; 
-}
 p {
   margin: 10px 0px;
   text-align: center;            /* tekst links en rechts uitvullen */
@@ -158,12 +139,35 @@ background-image: url("https://www.hdcarwallpapers.com/download/porsche_cayenne_
   (kolom inleiding)
 }
 .kolomLinks {
-  width:280px;
+  width:50%;
   float:left;
 }
 .kolomRechts {
-  width:300px;
-  float:right;
+  width:50%;
+  float:right
+  height: 70px;
+}
+/* Indeling voor 718 pagina */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://files.porsche.com/filestore/image/multimedia/none/982-718-bo-modelimage-sideshot/model/8c798d76-a8bd-11eb-80d5-005056bbdc38/porsche-model.png");
+  background-size:cover;
+  background-position:center;
+  padding: 20px 10%;
+}
+.h2 {
+  color: #ffffff;
+  font-family: 
+  font-weight: 900;
+  col
+  
+}
+  
+}
+}
+  
+  
 }
 /* Opmaak voor alle pagina's */
 
