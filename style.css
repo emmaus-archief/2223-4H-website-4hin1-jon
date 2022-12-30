@@ -148,27 +148,59 @@ background-image: url("https://www.hdcarwallpapers.com/download/porsche_cayenne_
   height: 70px;
 }
 /* Indeling voor 718 pagina */
-.container {
+.intro {
   width: 100%;
-  height: 100vh;
-  background-image: url("https://files.porsche.com/filestore/image/multimedia/none/982-718-bo-modelimage-sideshot/model/8c798d76-a8bd-11eb-80d5-005056bbdc38/porsche-model.png");
-  background-size:cover;
-  background-position:center;
-  padding: 20px 10%;
+  height: 100px;
+  border: solid 2px red;
+  margin-top: 20px;
 }
-.h2 {
-  color: #ffffff;
-  font-family: 
+h2 {
+  font-size: 35px;
   font-weight: 900;
-  col
+  font-family: sans-serif;
+  color: beige;
+}
+.tekstpagina {
+  color:#ffffff;
+}
+.introtekst {
+  color:white;
+  font-size: 15px;
+  float: center;
+}
+.allinea1 {
+  width: 45%;
+  height: 120px;
+  border: solid 2px red;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  flex-basis: 45%;
   
 }
+.fotorechts1{
+  border-radius: 30px;
+  width: 50%;
+  height 80px;
+  border: solid 2px red;
+  float: right;
+  margin-top: 15px;
+  flex-basis: 45%; 
+}
+.allinea2 {
+  width: 45%;
+  height: 150px;
+  border: solid 2px red;
+  float: left;
+  margin-top: 10px;
+  flex-basis: 45%;
+}
+
+  
+  
   
 }
-}
-  
-  
-}
+
 /* Opmaak voor alle pagina's */
 
 h1, h2, {
@@ -209,15 +241,17 @@ nav li a {
     text-decoration: none;
 }
 nav li a:hover {
-    background-color: beige;
-  border-radius: 8px;
-    overflow: hidden;
-    padding: 10px;
+  margin-right: 5px
+  margin-left: 5px;
+  background-color: beige;
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 10px;
   witdh: 100px;
   height: 40px
 }
 nav li a.active {
-    background-color: beige;
+  background-color: beige;
   border-radius: 8px;
   padding: 10px;
   witdh: 100%;
