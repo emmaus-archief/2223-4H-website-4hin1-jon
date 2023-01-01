@@ -28,9 +28,14 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
+}
 .belangrijk {
   font-size: 70px;
-  color: beige
+  font-weight: bold;
+  font-family: sans-serif;
+  color: beige;
+}
+
 }
 .page {
   width: 80%;                   /* vaste breedte van 700 pixels */
@@ -154,23 +159,26 @@ background-image: url("https://www.hdcarwallpapers.com/download/porsche_cayenne_
   border: solid 2px red;
   margin-top: 20px;
 }
-h2 {
+.titel718 {
   font-size: 35px;
   font-weight: 900;
   font-family: sans-serif;
   color: beige;
+
 }
 .tekstpagina {
   color:#ffffff;
 }
 .introtekst {
-  color:white;
+  color:beige;
   font-size: 15px;
   float: center;
+  font-weight: bold;
+  text-align: left;
 }
 .allinea1 {
-  width: 45%;
-  height: 120px;
+  width: 55%;
+  height: 130px;
   border: solid 2px red;
   margin-top: 15px;
   margin-right: 10px;
@@ -180,21 +188,54 @@ h2 {
 }
 .fotorechts1{
   border-radius: 30px;
-  width: 50%;
-  height 80px;
+  width: 39%;
+  height 95px;
   border: solid 2px red;
   float: right;
   margin-top: 15px;
   flex-basis: 45%; 
 }
 .allinea2 {
-  width: 45%;
-  height: 150px;
+  width: 55%;
+  height: 250px;
   border: solid 2px red;
   float: left;
   margin-top: 10px;
   flex-basis: 45%;
 }
+.allinea3 {
+  width: 55%;
+  height: 200px;
+  border: solid 2px red;
+  float: left;
+  flex-basis: 45%;
+}
+.allinea4 {
+  width: 55%;
+  height:250px;
+  border: solid 2px red;
+  float: right;
+  margin-top: 15px;
+  flex-basis: 45%;
+}
+.fotolinks1{
+  border-radius: 30px;
+  width: 39%;
+  height 95px;
+  border: solid 2px red;
+  float: left;
+  margin-top: 15px;
+  flex-basis: 45%; 
+}
+.allinea5 {
+  width: 55%;
+  height:200px;
+  border: solid 2px red;
+  float: right;
+  margin-top: 5px;
+  flex-basis: 45%;
+}
+
 
   
   
@@ -249,6 +290,7 @@ nav li a:hover {
   padding: 10px;
   witdh: 100px;
   height: 40px
+  text-align: center;
 }
 nav li a.active {
   background-color: beige;
@@ -256,5 +298,7 @@ nav li a.active {
   padding: 10px;
   witdh: 100%;
   height: 40px;
+  text-align: center;
+ 
   
 }
